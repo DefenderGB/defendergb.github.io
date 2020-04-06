@@ -1,1 +1,38 @@
-theme: jekyll-theme-minimal
+title: DefenderGB Blog
+author: Gustavo BH
+email: defender.gb@gmail.com
+description: > 
+  DefenderGB's blog
+show_excerpts: true # set to true to show excerpts on the homepage
+paginate_path: /page:num/
+permalink: /:title/
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Gustavo BH
+  tagline:
+  date_format: "%b %-d, %Y"
+  sitemap: true # set to true to generate sitemap.xml content
+  # generate social links in footer
+  social_links:
+    twitter: defendergb
+    github:  DefenderGB
+    linkedIn: in/gustavobobbio
+    #rss: rss
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+ - about.md
+
+# Build settings
+theme: plainwhite
+
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed
