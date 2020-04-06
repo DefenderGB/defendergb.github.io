@@ -88,6 +88,9 @@ Followed YouTube video below, very easy lab.
 
 # References
 [TryHackMe! Basic Penetration Testing Lab](https://www.youtube.com/watch?v=xl2Xx5YOKcI&list=PLu38WVf2qAwR0GqLwSZ0r5lSIAj46b-Vq&index=61&t=0s)
+
 [Bugcrowd University - Introduction + Becoming a Bug Bounty Hunter](https://www.youtube.com/watch?v=EZzAl-bfu7Q&list=PLu38WVf2qAwR0GqLwSZ0r5lSIAj46b-Vq&index=50&t=0s%20%20https://www.youtube.com/watch?v=dlx0_63CjC8&list=PLu38WVf2qAwR0GqLwSZ0r5lSIAj46b-Vq&index=72&t=0s)
+
 [Bugcrowd University - Cross-Site Scripting (XSS)](https://www.youtube.com/watch?v=gkMl1suyj3M&t=1259s)
+
 [@tomnomnom suggestions on bug bounty](https://www.youtube.com/watch?v=l8iXMgk2nnY&list=PLu38WVf2qAwR0GqLwSZ0r5lSIAj46b-Vq&index=26&t=0s)
