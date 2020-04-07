@@ -2,7 +2,7 @@
 layout: post
 title:  "Violent Python"
 postid: blog
-categories: Python Vmware TryHackMe!
+categories: Python WebApp VMware TryHackMe!
 ---
 
 These past 2 weeks began with a focus on reading through Violent Python, developing a further understanding of Web App vulnerabilities (got The Web Application Hacker's Handbook), doing some penetration testing labs to get up to speed with utilizing kali and tools, and watching and gathering information from knowledgeable bug hunters.
@@ -39,10 +39,12 @@ pip install python-nmap pyPdf pygeoip mechanize beautifulsoup4 PyBluez PyOBEX
 
 #### Variables
 Pointer to data stored in a memory location. Memory location can store different values such as Integers, real numbers, Booleans, strings, or more complex data such as lists or dictionaries
+
 Example: port stores an "integer" and "banner" stores a string
 
 #### Strings
 Text that can be used with different methods to manipulate the text. 
+
 Example: upper(), lower(), replace(), find(), etc
 
 #### Lists (Data Structure)
@@ -70,19 +72,25 @@ You can iterate through a list, numbers, or elements.
 Instead of creating huge IF statements, python allows iterating through a file using .readlines()
 
 #### Sys Module
-Built-in sys module provides access to objects used by python interpreter. Including flags, version, max sizes of integers, available modules, path hooks, location of standard error/in/out, and command line arguments called by interpreter. Ex sys.argv[1] would parse out txt file that we implemented on script.
+Built-in sys module provides access to objects used by python interpreter. Including flags, version, max sizes of integers, available modules, path hooks, location of standard error/in/out, and command line arguments called by interpreter. 
+
+Example: sys.argv[1] would parse out txt file that we implemented on script.
 
 #### OS Module
 Built-in OS modules provide OS routines for Mac, NT, or Posix OS. Module allows the program to independently interact with OS env, file-system, user database, and permissions.
 
 #### Script created
-Port Scanner
-UNIX password Cracker
-Zip-File Password Cracker
+Port Scanner - (Link Pending)
+
+UNIX password Cracker - (Link Pending)
+
+Zip-File Password Cracker - (Link Pending)
+
 
 
 ## TryHackMe! Basic Penetration Testing Lab Notes
-[Lost due to Kali breaking] 
+(Lost due to Kali breaking) 
+
 Followed YouTube video below, very easy lab.
 
 
