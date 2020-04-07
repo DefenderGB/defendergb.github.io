@@ -2,13 +2,14 @@
 layout: post
 title:  "Baby Steps"
 postid: blog
-categories: Mint Kali 
+categories: Mint OWASP-BWA Kali 
 ---
 On Feb 28, I migrated my Kali, Mint, and my OWASP BWA OS to VMware as they were gathering dust on VirtualBox. After research and final decision, I have decided that VMware was the most optimized to run my VirtualBox, where VirtualBox just wasn't able to compare. I am still running a Ubuntu server on VirtualBox that I set up months ago for creating a encrypting private network.
 
 ### Mint:
 For my Mint, I just used VirtualBox's feature "Export Appliance" and then opened it and stored it under VMware. Easy peacy, didn't even know that was a feature. Learned it from [HowToGeek blog][1].
 
+### OWASP BWA
 For OWASP BWA, I followed instructions found on [GitHub][2] and downloaded BWA from [SourceForge][3].
 NOTE:
 1. Make sure to install on HOST-ONLY.
