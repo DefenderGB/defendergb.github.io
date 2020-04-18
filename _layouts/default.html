@@ -4,15 +4,36 @@
     {%- include head.html -%}
   </head>
   <body>
+
+	<!-- added header from wanda15tw's code-->
+  <header class="site-header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+      <div class="container">
+        <a class="navbar-brand mr-4" href="/">DefenderGB Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggle">
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="/">Home</a>
+            <a class="nav-item nav-link" href="/about">About</a>
+            <a class="nav-item nav-link" href="https://github.com/DefenderGB/Scripts">Scripts</a>
+          </div>
+          <!-- Navbar Right Side
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="/share">Resources</a>
+            <a class="nav-item nav-link" href="/comment">Comment</a>
+          </div>-->
+        </div>
+      </div>
+    </nav>
+  </header>
+
     <main class="container">
       <section class="about">
         <img src="{{ "/assets/profile.jpeg" | relative_url }}" alt="{{ site.plainwhite.name }}">
         <h2>{{ site.plainwhite.name }}</h2>
-        <p class="tagline">{{ site.plainwhite.tagline }}<br>
-          <a href="https://defendergb.github.io/" style="color: #AAAAAA; text-decoration: none; line-height:150%;">Home</a><br>
-          <a href="https://defendergb.github.io/about" style="color: #AAAAAA; text-decoration: none; line-height:150%;">About</a><br>
-	  <a href="https://github.com/DefenderGB/Scripts" style="color: #AAAAAA; text-decoration: none; line-height:150%;">Scripts</a><br>
-        </p>
+        <p class="tagline">{{ site.plainwhite.tagline }}</p>
         <ul class="social">
           {%- if site.plainwhite.social_links.github -%}
             <a href="https://github.com/{{ site.plainwhite.social_links.github }}">

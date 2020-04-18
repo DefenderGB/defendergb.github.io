@@ -1,8 +1,8 @@
-title: DefenderGB Blog
+title: DefenderGB's blog
 author: Gustavo BH
 email: defender.gb@gmail.com
 description: > 
-  DefenderGB's blog
+  DefenderGB's Blog.
 show_excerpts: true # set to true to show excerpts on the homepage
 paginate_path: /page:num/
 permalink: /:title/
@@ -15,7 +15,8 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Gustavo BH
-  tagline:
+  tagline: 
+  motto: 
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   # generate social links in footer
@@ -23,12 +24,12 @@ plainwhite:
     twitter: defendergb
     github:  DefenderGB
     linkedIn: in/gustavobobbio
-    #rss: rss
+    rss: rss
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-header_pages:
- - about.md
+#header_pages:
+# - about.md
 
 # Build settings
 theme: plainwhite
