@@ -86,7 +86,7 @@ Built-in OS modules provide OS routines for Mac, NT, or Posix OS. Module allows 
 Port Scanner - (Link Pending)
 
 UNIX password Cracker
-{%gist DefenderGB/c322fc7cbc8c294d3f854a8ae98be09b}
+{%gist DefenderGB/c322fc7cbc8c294d3f854a8ae98be09b%}
 
 Zip-File Password Cracker - (Link Pending)
 
