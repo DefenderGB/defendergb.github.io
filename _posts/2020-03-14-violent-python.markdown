@@ -2,7 +2,6 @@
 layout: post
 title:  "Violent Python"
 postid: blog
-categories:
 ---
 
 
@@ -36,7 +35,7 @@ Chapter 1 Setup Development Environment
 #### Libraries
 Book suggested library installation through easy_install or wget but pip handles installation better.
 
-```javascript
+```
 pip install python-nmap pyPdf pygeoip mechanize beautifulsoup4 PyBluez PyOBEX
 ```
 
@@ -48,7 +47,7 @@ Example: port stores an "integer" and "banner" stores a string
 #### Strings
 Text that can be used with different methods to manipulate the text. 
 
-Example: upper(), lower(), replace(), find(), etc
+Example: `upper()`, `lower()`, `replace()`, `find()`, etc
 
 #### Lists (Data Structure)
 Stores arrays of objects. Can contain any data type
@@ -77,7 +76,7 @@ Instead of creating huge IF statements, python allows iterating through a file u
 #### Sys Module
 Built-in sys module provides access to objects used by python interpreter. Including flags, version, max sizes of integers, available modules, path hooks, location of standard error/in/out, and command line arguments called by interpreter. 
 
-Example: sys.argv[1] would parse out txt file that we implemented on script.
+Example: `sys.argv[1]` would parse out txt file that we implemented on script.
 
 #### OS Module
 Built-in OS modules provide OS routines for Mac, NT, or Posix OS. Module allows the program to independently interact with OS env, file-system, user database, and permissions.
@@ -86,7 +85,7 @@ Built-in OS modules provide OS routines for Mac, NT, or Posix OS. Module allows 
 Port Scanner - (Link Pending)
 
 UNIX password Cracker
-{%gist DefenderGB/c322fc7cbc8c294d3f854a8ae98be09b%}
+<script src="https://gist.github.com/DefenderGB/c322fc7cbc8c294d3f854a8ae98be09b.js"></script>
 
 Zip-File Password Cracker - (Link Pending)
 
