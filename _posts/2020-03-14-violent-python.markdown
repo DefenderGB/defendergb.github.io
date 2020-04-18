@@ -2,8 +2,11 @@
 layout: post
 title:  "Violent Python"
 postid: blog
-categories: Python WebApp VMware TryHackMe!
+categories:
 ---
+
+
+###### tags: `Python`, `WebApp`, `VMware`, `TryHackMe!`
 
 These past 2 weeks began with a focus on reading through Violent Python, developing a further understanding of Web App vulnerabilities (got The Web Application Hacker's Handbook), doing some penetration testing labs to get up to speed with utilizing kali and tools, and watching and gathering information from knowledgeable bug hunters.
 
@@ -82,7 +85,8 @@ Built-in OS modules provide OS routines for Mac, NT, or Posix OS. Module allows 
 #### Script created
 Port Scanner - (Link Pending)
 
-UNIX password Cracker - (Link Pending)
+UNIX password Cracker
+{%gist DefenderGB/c322fc7cbc8c294d3f854a8ae98be09b}
 
 Zip-File Password Cracker - (Link Pending)
 
