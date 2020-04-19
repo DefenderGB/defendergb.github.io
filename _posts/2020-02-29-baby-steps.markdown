@@ -5,7 +5,7 @@ postid: blog
 ---
 
 
-###### tags: `Mint`, `OWASP-BWA`, `Kali`
+###### Tags: `Mint`, `OWASP-BWA`, `Kali`
 
 On Feb 28, I migrated my Kali, Mint, and my OWASP BWA OS to VMware as they were gathering dust on VirtualBox. After research and final decision, I have decided that VMware was the most optimized to run my VirtualBox, where VirtualBox just wasn't able to compare. I am still running a Ubuntu server on VirtualBox that I set up months ago for creating a encrypting private network.
 

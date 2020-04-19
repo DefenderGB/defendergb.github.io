@@ -18,9 +18,11 @@ categories:
 * Reading through The Web Application Hacker's Handbook
 
 # Cheat sheet
+
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 ## Testing python on posts
+
 ```python
 class Test(object):
   """Note."""
@@ -32,6 +34,7 @@ class Test(object):
 ```
 
 ## Testing javascript on posts
+
 ```javascript
 <!DOCTYPE HTML>
 <html>
@@ -46,6 +49,7 @@ class Test(object):
 alert(s);
 ```
 ## Inline HTML
+
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>
@@ -55,11 +59,35 @@ alert(s);
 </dl>
 
 ## Table
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
+
+<table style="width:100%; border: 1px solid black;">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+
 
 ## Quote
 > Blockquotes are very handy in email to emulate reply text.
@@ -77,20 +105,34 @@ Hello
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
 " target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
+
 ## Inline image
+
 Inline-style: 
+
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 ## Links
 [I'm an inline-style link](https://www.google.com)
+
 [I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
 [I'm a reference-style link][Arbitrary case-insensitive reference text]
+
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
+
 [You can use numbers for reference-style link definitions][1]
+
 Or leave it empty and use the [link text itself].
+
 URLs and URLs in angle brackets will automatically get turned into links. 
 http://www.example.com or <http://www.example.com> and sometimes 
 example.com (but not on Github, for example).
+
 Some text to show that the reference links can follow later.
+
 [arbitrary case-insensitive reference text]: https://www.mozilla.org
+
 [1]: http://slashdot.org
+
 [link text itself]: http://www.reddit.com

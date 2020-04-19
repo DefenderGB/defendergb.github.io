@@ -22,7 +22,7 @@ plainwhite:
     twitter: defendergb
     github:  DefenderGB
     linkedIn: in/gustavobobbio
-    rss: rss
+    #rss: rss
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
