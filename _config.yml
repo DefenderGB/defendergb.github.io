@@ -15,8 +15,6 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Gustavo BH
-  tagline: 
-  motto: 
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   # generate social links in footer
