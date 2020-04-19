@@ -2,7 +2,7 @@ title: DefenderGB's blog
 author: Gustavo BH
 email: defender.gb@gmail.com
 description: > 
-  DefenderGB's Blog.
+  A cyber security blog documenting DefenderGB's journey to become a Hacker.
 show_excerpts: true # set to true to show excerpts on the homepage
 paginate_path: /page:num/
 permalink: post/:title
@@ -17,12 +17,14 @@ plainwhite:
   name: Gustavo BH
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
+  #disqus_shortname: defendergb
   # generate social links in footer
   social_links:
     twitter: defendergb
     github:  DefenderGB
     linkedIn: in/gustavobobbio
     #rss: rss
+    analytics_id: 'UA-163901083-1'
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up

@@ -7,9 +7,11 @@ postid: blog
 
 ###### Tags: `Mint`, `OWASP-BWA`, `Kali`
 
+## Hello World
 On Feb 28, I migrated my Kali, Mint, and my OWASP BWA OS to VMware as they were gathering dust on VirtualBox. After research and final decision, I have decided that VMware was the most optimized to run my VirtualBox, where VirtualBox just wasn't able to compare. I am still running a Ubuntu server on VirtualBox that I set up months ago for creating a encrypting private network.
 
-### Mint:
+### Mint
+
 For my Mint, I just used VirtualBox's feature "Export Appliance" and then opened it and stored it under VMware. Easy peacy, didn't even know that was a feature. Learned it from [HowToGeek blog][1].
 
 ### OWASP BWA
@@ -21,7 +23,8 @@ NOTE:
 
 More info on set up see [greenjam's blog][4]
 
-### Kali:
+### Kali
+
 To install Kali 2020.1, I downloaded the VMware version from [Offensive Security website][5]. For hardening I followed [Null's Blog][6] and [Alpha Cyber Security's blog][7]
 
 To summarize some steps I took to harden my Kali:
@@ -37,7 +40,8 @@ To summarize some steps I took to harden my Kali:
 
 Next up, I plan on going through [Violent Python book by TJ O'Connor][8] and playing around with SDR dongle and getting radio waves following [OZHack's blog][9].
 
-### Backlog:
+### Backlog
+
 As I am passionate to learn and understand Web Security more, I was recommended PortSwigger's course ["Introducing the Web Security Academy"][10].
 
 [1]: https://www.howtogeek.com/125640/how-to-convert-virtual-machines-between-virtualbox-and-vmware/

@@ -7,6 +7,7 @@ postid: blog
 
 ###### Tags: `Python`, `WebApp`, `VMware`, `TryHackMe!`
 
+## Update
 These past 2 weeks began with a focus on reading through Violent Python, developing a further understanding of Web App vulnerabilities (got The Web Application Hacker's Handbook), doing some penetration testing labs to get up to speed with utilizing kali and tools, and watching and gathering information from knowledgeable bug hunters.
 
 While these past two weeks have been everywhere, I wanted to rundown on few things I learned:
@@ -32,6 +33,7 @@ I also finished creating my official alias on Bugcrowd and HackerOne, defendergb
 Chapter 1 Setup Development Environment
 
 ### Python Language
+
 #### Libraries
 Book suggested library installation through easy_install or wget but pip handles installation better.
 
@@ -97,7 +99,8 @@ Zip-File Password Cracker - (Link Pending)
 Followed YouTube video below, very easy lab.
 
 
-# References
+## References
+
 [TryHackMe! Basic Penetration Testing Lab](https://www.youtube.com/watch?v=xl2Xx5YOKcI&list=PLu38WVf2qAwR0GqLwSZ0r5lSIAj46b-Vq&index=61&t=0s)
 
 [Bugcrowd University - Introduction + Becoming a Bug Bounty Hunter](https://www.youtube.com/watch?v=EZzAl-bfu7Q&list=PLu38WVf2qAwR0GqLwSZ0r5lSIAj46b-Vq&index=50&t=0s%20%20https://www.youtube.com/watch?v=dlx0_63CjC8&list=PLu38WVf2qAwR0GqLwSZ0r5lSIAj46b-Vq&index=72&t=0s)
