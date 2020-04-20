@@ -8,7 +8,7 @@ postid: blog
 ###### Tags: `Story Time!`
 
 ### Update
-These past months have been very busy. I started a new job, participated in two CTFs, worked on my blog, learned how to use git, got an AWS certification, and started an Ethical Hacking course on Udemy.
+This past month has been very busy. I started a new job, participated in two CTFs, worked on my blog, learned how to use git, got an AWS certification, and started an Ethical Hacking course on Udemy.
 
 Although I want to jump in and tell you everything new that I've been learning, I want to take a step back and tell you more about how I ended up where I am. I plan to post about my new experiences in the coming week.
 
