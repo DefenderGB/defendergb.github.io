@@ -2,11 +2,8 @@
 layout: post
 title:  "Violent Python"
 postid: blog
+categories: Python WebApp VMware TryHackMe!
 ---
-
-
-###### Tags: `Python`, `WebApp`, `VMware`, `TryHackMe!`
-
 ## Update
 These past 2 weeks began with a focus on reading through Violent Python, developing a further understanding of Web App vulnerabilities (got The Web Application Hacker's Handbook), doing some penetration testing labs to get up to speed with utilizing kali and tools, and watching and gathering information from knowledgeable bug hunters.
 

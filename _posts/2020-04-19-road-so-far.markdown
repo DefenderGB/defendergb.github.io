@@ -2,10 +2,8 @@
 layout: post
 title:  "Road So Far"
 postid: blog
+categories: StoryTime!
 ---
-
-
-###### Tags: `Story Time!`
 
 ### Update
 This past month has been very busy. I started a new job, participated in two CTFs, worked on my blog, learned how to use git, got an AWS certification, and started an Ethical Hacking course on Udemy.
