@@ -15,7 +15,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Gustavo BH
-  tagline: Husband. InfoSec Engineer.
+  tagline: InfoSec Engineer. Husband. Christian.
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   analytics_id: "UA-163901083-1"
