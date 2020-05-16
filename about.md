@@ -9,3 +9,7 @@ I work in Information Security, although, I just starting in this industry. I'm 
 <img src="https://tryhackme-badges.s3.amazonaws.com/defendergb.png" alt="TryHackMe">
 
 <img src="http://www.hackthebox.eu/badge/image/16601" alt="Hack The Box">
+
+<a href='https://hackerone.com/defendergb'><img src='https://img.shields.io/badge/_-%40hackerone-lightgrey?style=flat-square&label=defendergb&color=black&logo=Hackerone&logoColor=white' style='width:auto !important;'/></a>
+<a href='https://twitter.com/DefenderGB'><img src='https://img.shields.io/twitter/follow/defendergb?style=flat-square&label=@defendergb&color=black&logo=twitter&logoColor=white' style='width:auto !important;'/></a>
+<a href='https://github.com/DefenderGB'><img src='https://img.shields.io/github/followers/DefenderGB?style=flat-square&label=DefenderGB&color=black&logo=github&logoColor=white' style='width:auto !important;'/></a><br/>
