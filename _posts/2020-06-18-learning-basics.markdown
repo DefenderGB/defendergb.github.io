@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learning basics"
+title:  "Learning the Basics"
 postid: blog
 categories: CTfs VirCon SANS-HackFest Git
 ---
