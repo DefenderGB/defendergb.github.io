@@ -6,35 +6,13 @@ articles:
   title: CTFLive - Assumed Breach
   url: https://defendergb.org/writeups/ctflive-assumedbreach
 - categories:
-  - Python
+  - Apache 2.4.7
+  - xdebug_unauth_exec
   excerpt: ''
-  title: Test
-  url: https://zacs.site/blog/linear-python.html
-- categories: []
-  excerpt: Test
-  title: Test
-  url: https://scholar.harvard.edu/mankiw/publications/skeptics-guide-modern-monetary-theory
+  title: CTFLive - Hunting Artifacts
+  url: https://defendergb.org/writeups/ctflive-huntingartifacts
 - categories:
-  - Test1
-  - Test2
-  excerpt: "This year, we saw a dazzling application of machine learning. The OpenAI\
-    \ GPT-2 exhibited impressive ability of writing coherent and passionate essays\
-    \ that exceed what we anticipated current language models are able to produce.\
-    \ The GPT-2 wasn\u2019t a particularly novel architecture \u2013 it\u2019s architecture\
-    \ is very similar to the decoder-only transformer. The GPT2 was, however, a very\
-    \ large, transformer-based language model trained on a massive dataset. In this\
-    \ post, we\u2019ll look at the architecture that enabled the model to produce\
-    \ its results.   "
-  title: Test Title
-  url: http://jalammar.github.io/illustrated-gpt2/
-- categories: []
-  excerpt: A
-  title: Test Title
-  url: https://neilkakkar.com/unix.html
-- categories:
-  - test1
-  - test2
-  - test3
+    - XSS
   excerpt: ''
-  title: Test Title
-  url: https://www.analyticsvidhya.com/blog/2019/07/openai-gpt2-text-generator-python/
+  title: Kontra - Tiktok XSS
+  url: https://defendergb.org/writeups/kontra-tiktokxs

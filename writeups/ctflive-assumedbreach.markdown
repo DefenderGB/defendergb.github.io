@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CTFLive - Assumed Breach"
-postid: blog
+postid: writeup
 categories: CTFLive
 ---
 
