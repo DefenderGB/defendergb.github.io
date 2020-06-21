@@ -2,11 +2,8 @@
 layout: post
 title:  "CTFLive - Assumed Breach"
 postid: writeup
-categories: CTFLive
+categories:
 ---
-
-<br />
-
 # Assumed Breach
 2/7 flags achieved
 

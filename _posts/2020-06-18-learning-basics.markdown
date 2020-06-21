@@ -23,7 +23,7 @@ These past 2 months I was able to:
 <br />
 
 ### Backlog
-While I was able to learn plenty of things these past months there is a VAST amount of things within my backlog that I wish to address first. The following are courses/tasks that are in my backlog that I have not been able to get to:
+While I was able to learn lots these past months, there is a VAST amount of things within my backlog that I wish to address first. The following are courses/tasks that are in my backlog that I have not been able to get to:
 * LeetCode course - [Principle of Recursion](https://leetcode.com/explore/featured/card/recursion-i/250/principle-of-recursion/1439/)
 * Udemy course - [Windows Privilege Escalation for Beginners](https://www.udemy.com/course/windows-privilege-escalation-for-beginners/)
 * Udemy course - [Penetration Testing with KALI and More: All You Need to Know](https://www.udemy.com/course/kalipentest/) [Got free coupon via LinkedIn]
@@ -42,7 +42,7 @@ Always make sure not to overwhelm yourself with tasks, but weekly track the work
 <br />
 
 ### CTFs and Cyber challenges
-You can find my notes of ctf.virseccon under my Write-ups/CTF repo, I'm not able to provide ctf.live notes as its still on-going, and I did not take extensive notes for SANS's BootUpCTF and Jupiter Rockets. All in all, I believe CTFs can be used to grind security skills, and allows you to focus on specific sectors of security (Example: Web Sec, Crypto, Binary, Forensics, Networking, etc), it's easy to go through all beginner level challenges on each technology but you don't get to learn much. The learning comes from hours spent on a difficult challenge, that's where you learn more about specific technology/vulnerability. Other technics that will help you develop further is taking notes of the research and techniques you used.
+You can find my notes of ctf.virseccon under my Write-ups section, I'm not able to provide ctf.live notes as its still on-going, and I did not take extensive notes for SANS's BootUpCTF and Jupiter Rockets. All in all, I believe CTFs can be used to grind security skills, and allows you to focus on specific sectors of security (Example: Web Sec, Crypto, Binary, Forensics, Networking, etc), it's easy to go through all beginner level challenges for each sections but you don't get to learn much. The learning comes from hours spent on a difficult challenge, that's where you learn more about specific technologies. Other technics that will help you develop further is taking notes of the research and techniques you used.
 
 Good resources and example of note-taking for CTFs are [Apsdehal's CTF resource matrix](https://github.com/apsdehal/awesome-ctf), [HackTrick's CTF/Pentesting Notes](https://book.hacktricks.xyz/), and [David Rook's CTF Resources](https://gitlab.com/r00k/ctf-resources)
 
@@ -66,9 +66,9 @@ My CTFs scores:
 <br />
 
 ### HTB and TryHackMe
-At this time, I hit Script Kiddie (Level 1) in HTB and aim to get Hacker (Level 2) by end of the month. I truly enjoy Hack The Box and TryHackMe as both help you create methodologies to get user level and root level on machines. TryHackMe can be very beginner level with some rooms, but the main focus of TryHackMe rooms is to help you and guide you, while HTB gives you tips but does not give you the answers. I have done two easy boxes within HackTheBox and 3 practice rooms within TryHackMe so far, below I went into more detail on what I learned.
+At the time of writing, I reached Script Kiddie (Level 1) in HTB and aim to get Hacker (Level 2) by end of the month. I truly enjoy Hack The Box (HTB) and TryHackMe as both help you create methodologies. TryHackMe focuses on guiding you though challenges, focusing on helping you learn and can provide guides. HTB gives you tips but does not give you the answers, it's focused on giving you a challenge, and forcing you to use your skills of enumeration and recon. I have done two easy boxes within HackTheBox and 3 practice rooms within TryHackMe so far, below I went into more detail on what I learned.
 
-I would suggest watching [ippsec's HTB videos](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) and [CyberMentor's HTB videos](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw/playlists) to learn see what HTB challenges compose of and what you can learn from it. I plan on creating YouTube videos on retired HTB boxes ones I have gained enough experience.
+I would suggest watching [ippsec's HTB videos](https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA) and [CyberMentor's HTB videos](https://www.youtube.com/channel/UC0ArlFuFYMpEewyRBzdLHiw/playlists) to see what HTB challenges compose of. I plan on creating YouTube videos on retired HTB boxes ones I have gained enough experience.
 
 <b>HackTheBox</b>
 
@@ -114,14 +114,14 @@ My badges:
 <br />
 
 ### SDLC
-While I had to learn this for work, learning how to use git benefit me while coding for my blog. At first, I edited straight from GitHub which meant I didn't have a dev environment to test my code before publishing to production (Live changes to my blog). All this ties back to the Software Development Life-cycle (SDLC), while this is not directly tied to hacking, I think it's important to learn and understand. Proper applications and tools created by developers follow a SDLC model. SDLC model composes of planning, defining, designing, building, testing, deployment. While these are just terms, the general idea is after develop/testing/deploying there will be a cycle to continue development and testing.
+I learned the concept of Software Development Life-cycle (SDLC) for work although this doesn't directly tied hacking, I think it's important to learn and understand. Proper applications and tools created by developers follow a SDLC model. SDLC model composes of planning, defining, designing, building, testing, deployment. While these are just terms, the general idea is after develop/testing/deploying there will be a cycle to continue development and testing.
 
-For example, you are doing a penetration test and review a company's main infrastructure and web app, you find no vulnerabilities, although you find a external facing forum hosted in company's network that uses a deprecated apache version. You can start deriving that 1) the company has a branch/team that does is not properly maintaining this applications and 2) allows you to shift your scope attack small sectors within the company and use them to pivot.
+For example, you are doing a penetration test and review a company's main infrastructure and web app, you find no vulnerabilities, although you find a external facing forum hosted in company's network that uses a deprecated apache version. You can start deriving that 1) the are small applications that are not properly maintaining and 2) allows you to shift your attack as these apps are more likely to have vulnerabilities.
 
 <br />
 
 ### Blog
-Before starting to code for my blog, I have never used git for development. My extended knowledge with git composed of pulling git repositories of tools or scripts.
+Before starting to code for my blog, I have never used git for development. My extended knowledge with git composed of pulling git repositories of tools or scripts. I didn't have a development environment to test my code before pushing code changes.
 
 This [video](https://www.youtube.com/watch?v=4SD6rWt9wUQ) had a good explanation of the bases of using git for development. Below are notes on my most used commands:
 ```bash
@@ -157,10 +157,12 @@ $ git commit -m "Added stuff"
 $ git push
 ```
 
+I choose to use [Jekyll's Plainwhite](https://github.com/thelehhman/plainwhite-jekyll) template for my blog and took inspiration from [wanda15tw's blog](https://wanda15tw.github.io/) and [leeranrell's blog](leevanrell.github.io) to design my blog. 
+
 <br />
 
 ### Practical Ethical Hacking Course
-I am 40% through this Udemy course, I would highly recommend anyone who is new to the cyber security industry to take this course. It goes through Networking, Linux basic, Python basic, Ethical Hacker Methodology, Information Gathering (Recon), Scanning and Enumeration, Exploitation, Hack The Box walkthroughs, and more.
+I am 40% through this Udemy course, I would highly recommend anyone who is new or wants to understand the tecnhical side of cyber security industry. It goes through Networking, Linux basic, Python basic, Ethical Hacker Methodology, Information Gathering (Recon), Scanning and Enumeration, Exploitation, Hack The Box walkthroughs, and more.
 
 All my notes on the course so far are hosted on my Notes repository within on CherryTree, I will do an extensive review ones I am done with the course.
 
@@ -171,14 +173,14 @@ All my notes on the course so far are hosted on my Notes repository within on Ch
 <br />
 
 ### Kontra's Application Security Training
-I found Kontra's Application Security Training site by coincidence through a Twitter post, I have shared this with my friends and colleagues. Kontra's AppSec training is a great way to learn web application vulnerabilities through an interactive web app. I have only done the TikTok XSS but so far they have 21 trainings and continue to expand! Examples of OWASP Top 10 that are covered, Command Injection, SSRF, Directory Traversal. SQL injection, and more!
+I found "Kontra's Application Security Training" site through a Twitter post and have shared it with my friends and colleagues. Kontra's AppSec training is a great way to learn web application vulnerabilities through an interactive web portal. I have only done the TikTok XSS but so far they have 21 labs and continue to expand! Examples of vulnerabilities they cover: Command Injection, SSRF, Directory Traversal. SQL injection, and more! As I continue to do more labs I will add my write-ups.
 
 [https://application.security/free-application-security-training/](https://application.security/free-application-security-training/)
 
 <br />
 
 ### CherryTree and Gitbook
-Through the practical ethical hacking course, CyberMentor emphasizes note-taking. Because of his recommendations I started using CherryTree. I use it both on my Parrot OS laptop and my personal Windows machine. In order for them to sync I followed [MrChrisWeinert's CherryTreeGitSync](https://github.com/MrChrisWeinert/CherryTreeGitSync), which essentially allows you to create a Git repository to store the cherrytree file of your notes, and every time you open or exit cherrytree the script syncs with the git repository.
+The "Practical Ethical Hacking" course emphasizes note-taking, because of this recommendations, I started using CherryTree as my note-taking solution. In order to sync between my laptop and desktop, I followed [MrChrisWeinert's CherryTreeGitSync](https://github.com/MrChrisWeinert/CherryTreeGitSync) which allows you to create a Git repository to store the cherrytree file of your notes and every time you open or exit cherrytree the script syncs with the git repository.
 
 Although I have enjoyed using CherryTree and will continue to use it, my main form of sharing my hacking notes will be moved to my [Defender Notes Gitbook](https://defender-gb.gitbook.io/defender-notes/). 
 

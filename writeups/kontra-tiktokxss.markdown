@@ -2,11 +2,8 @@
 layout: post
 title:  "Kontra - Tiktok XSS"
 postid: writeup
-categories: XSS
+categories:
 ---
-
-<br />
-
 # Tiktok XSS
 This exercise can be found under [Kontra](1)
 

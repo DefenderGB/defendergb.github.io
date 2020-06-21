@@ -2,11 +2,8 @@
 layout: post
 title:  "CTFLive - Assumed Breach"
 postid: writeup
-categories: CTFLive
+categories:
 ---
-
-<br />
-
 # Hunting Artifacts
 Kali IP: 192.117.250.2
 Target IP: 192.117.250.3

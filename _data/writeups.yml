@@ -4,15 +4,27 @@ articles:
   - ssh
   excerpt: ''
   title: CTFLive - Assumed Breach
-  url: https://defendergb.org/writeups/ctflive-assumedbreach
+  url: /writeups/ctflive-assumedbreach
+- categories:
+  - smb
+  - rpcclient
+  - Hydra
+  excerpt: ''
+  title: CTFLive - Recon Samba
+  url: /writeups/ctflive-reconsamba
 - categories:
   - Apache 2.4.7
   - xdebug_unauth_exec
   excerpt: ''
   title: CTFLive - Hunting Artifacts
-  url: https://defendergb.org/writeups/ctflive-huntingartifacts
+  url: /writeups/ctflive-huntingartifacts
 - categories:
     - XSS
   excerpt: ''
   title: Kontra - Tiktok XSS
-  url: https://defendergb.org/writeups/kontra-tiktokxs
+  url: /writeups/kontra-tiktokxss
+- categories:
+    - XSS
+  excerpt: ''
+  title: BWA - HTML Inject (XSS) 
+  url: /writeups/bwa-htmlinject-xss
