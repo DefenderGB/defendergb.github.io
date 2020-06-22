@@ -1,5 +1,13 @@
 articles:
 - categories:
+  - SQL Injection
+  - php shell execution
+  - Python reverse shell
+  - CVE-2018-9310
+  excerpt: ''
+  title: HTB - Magic
+  url: /writeups/htb-magic
+- categories:
   - ftp
   - ssh
   excerpt: ''
