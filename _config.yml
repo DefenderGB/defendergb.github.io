@@ -1,7 +1,7 @@
 title: DefenderGB's blog
 author: Gustavo BH
 email: defender.gb@gmail.com
-description: > 
+description: >
   A cyber security blog documenting DefenderGB's journey to become a Hacker.
 show_excerpts: false # set to true to show excerpts on the homepage
 paginate_path: /page:num/
@@ -21,7 +21,7 @@ plainwhite:
   search: true
   dark_mode: true
   analytics_id: "UA-163901083-1"
-  
+
   #disqus_shortname: defendergb
   # generate social links in footer
   social_links:
@@ -31,7 +31,7 @@ plainwhite:
     #rss: rss
   navigation:
     - title: Write-ups
-      url: "/writeups"
+      url: "https://writeups.defendergb.org"
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
