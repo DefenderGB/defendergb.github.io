@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "About"
+    url: /about/
+  - title: "Posts"
+    url: /posts/
+  - title: "Tags"
+    url: /tags/
+  - title: "Scripts"
+    url: https://github.com/DefenderGB/Scripts
+  - title: "Writeups"
+    url: https://writeups.defendergb.org/
+  - title: "Notes"
+    url: https://notes.defendergb.org/

@@ -1,10 +1,44 @@
+# Vim
+*~
+*.sw[p_]
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Ruby Gem
 *.gem
 .bundle
-.sass-cache
-_site
 Gemfile.lock
+**/vendor/bundle
+
+# Node.js and NPM
+node_modules
+npm-debug.log*
+package-lock.json
+codekit-config.json
+
+# macOS
 .DS_Store
-vendor
-.jekyll-cache*
-tags
+
+# Jekyll generated files
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
+
+# minimal-mistake forked files
+.editorconfig
+.gitattributes
+.github
+CHANGELOG.md
+minimal-mistakes-jekyll.gemspec
+README.md
+
+# Draft Writting
+_draft
+test
+
+#Test Env
 run.txt

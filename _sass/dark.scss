@@ -5,7 +5,7 @@
 	background-color: #171717;
 	color: $dark_text_color;
 	border-color: #e6e6e6;
-	
+
 	.social [class^="icon-"] {
 		color: $dark_text_color 
 	}
@@ -61,12 +61,12 @@
 				}
 			}
 		}
-	
+
 		.search-section i {
 			background-color: transparent;
 		}
 	}
-	
+
 	.posts-labelgroup:hover {
 
 		i {
@@ -80,7 +80,7 @@
 
 
 	.posts-labelgroup.focus-within {
-	
+
 		.search-section {
 			background-color: #333;
 		}

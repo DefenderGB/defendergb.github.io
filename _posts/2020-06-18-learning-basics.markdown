@@ -1,13 +1,19 @@
 ---
-layout: post
-title:  "Learning the Basics"
-postid: blog
-categories: CTfs VirCon SANS-HackFest Git
+layout: single
+title: "Learning the Basics"
+last_modified_at: 2020-11-28 01:00:00 -0700
+categories: posts
+excerpt: "Update from these past 2 months."
+tags: [CTF, Git, TryHackMe, HackTheBox]
+image:
+  feature:
+share: true
+date: 2020-06-18 01:00:00 -0700
+toc: true
+toc_label: "Table of Contents"
+classes: wide
 ---
-
-<br />
-
-### Update
+## Update
 These past 2 months I was able to: 
 * Participate on four CTFs (ctf.live, ctf.virseccon.com, BootUpCTF, and Jupiter Rockets)
 * Bought the domain name defendergb.org for my blog and cleaned up my blog's code
@@ -20,9 +26,7 @@ These past 2 months I was able to:
 * Using CherryTree as my primary source of note taking.
 * Started a Gitbook to publish my notes: [https://defender-gb.gitbook.io/](https://defender-gb.gitbook.io/)
 
-<br />
-
-### Backlog
+## Backlog
 While I was able to learn lots these past months, there is a VAST amount of things within my backlog that I wish to address first. The following are courses/tasks that are in my backlog that I have not been able to get to:
 * LeetCode course - [Principle of Recursion](https://leetcode.com/explore/featured/card/recursion-i/250/principle-of-recursion/1439/)
 * Udemy course - [Windows Privilege Escalation for Beginners](https://www.udemy.com/course/windows-privilege-escalation-for-beginners/)
@@ -39,7 +43,7 @@ While I was able to learn lots these past months, there is a VAST amount of thin
 
 Always make sure not to overwhelm yourself with tasks, but weekly track the work you have done, otherwise, it feels like you have done no progress. I have found it very helpful to set weekly goals and find a fair line between exaggerated and slacking goals. The security industry is vast and you will need to allocate time to study, but mental health is also important for proactive learning. 
 
-<br />
+## Technical Learnings
 
 ### CTFs and Cyber challenges
 You can find my notes of ctf.virseccon under my Write-ups section, I'm not able to provide ctf.live notes as its still on-going, and I did not take extensive notes for SANS's BootUpCTF and Jupiter Rockets. All in all, I believe CTFs can be used to grind security skills, and allows you to focus on specific sectors of security (Example: Web Sec, Crypto, Binary, Forensics, Networking, etc), it's easy to go through all beginner level challenges for each sections but you don't get to learn much. The learning comes from hours spent on a difficult challenge, that's where you learn more about specific technologies. Other technics that will help you develop further is taking notes of the research and techniques you used.
@@ -111,14 +115,13 @@ My badges:
 <script src="https://www.hackthebox.eu/badge/298459"></script>
 
 <script src="https://tryhackme.com/badge/51291"></script>
-<br />
+
+## Development Learnings
 
 ### SDLC
 I learned the concept of Software Development Life-cycle (SDLC) for work although this doesn't directly tied hacking, I think it's important to learn and understand. Proper applications and tools created by developers follow a SDLC model. SDLC model composes of planning, defining, designing, building, testing, deployment. While these are just terms, the general idea is after develop/testing/deploying there will be a cycle to continue development and testing.
 
 For example, you are doing a penetration test and review a company's main infrastructure and web app, you find no vulnerabilities, although you find a external facing forum hosted in company's network that uses a deprecated apache version. You can start deriving that 1) the are small applications that are not properly maintaining and 2) allows you to shift your attack as these apps are more likely to have vulnerabilities.
-
-<br />
 
 ### Blog
 Before starting to code for my blog, I have never used git for development. My extended knowledge with git composed of pulling git repositories of tools or scripts. I didn't have a development environment to test my code before pushing code changes.
@@ -159,7 +162,7 @@ $ git push
 
 I choose to use [Jekyll's Plainwhite](https://github.com/thelehhman/plainwhite-jekyll) template for my blog and took inspiration from [wanda15tw's blog](https://wanda15tw.github.io/) and [leeranrell's blog](leevanrell.github.io) to design my blog. 
 
-<br />
+## Training/Classes
 
 ### Practical Ethical Hacking Course
 I am 40% through this Udemy course, I would highly recommend anyone who is new or wants to understand the tecnhical side of cyber security industry. It goes through Networking, Linux basic, Python basic, Ethical Hacker Methodology, Information Gathering (Recon), Scanning and Enumeration, Exploitation, Hack The Box walkthroughs, and more.
@@ -177,9 +180,7 @@ I found "Kontra's Application Security Training" site through a Twitter post and
 
 [https://application.security/free-application-security-training/](https://application.security/free-application-security-training/)
 
-<br />
-
-### CherryTree and Gitbook
+## Note Taking Improvements
 The "Practical Ethical Hacking" course emphasizes note-taking, because of this recommendations, I started using CherryTree as my note-taking solution. In order to sync between my laptop and desktop, I followed [MrChrisWeinert's CherryTreeGitSync](https://github.com/MrChrisWeinert/CherryTreeGitSync) which allows you to create a Git repository to store the cherrytree file of your notes and every time you open or exit cherrytree the script syncs with the git repository.
 
 Although I have enjoyed using CherryTree and will continue to use it, my main form of sharing my hacking notes will be moved to my [Defender Notes Gitbook](https://defender-gb.gitbook.io/defender-notes/). 
