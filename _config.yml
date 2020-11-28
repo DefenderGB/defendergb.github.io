@@ -55,7 +55,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true
 search_full_content      : true # true, false (default)
-search_provider          : "lunr" # lunr (default), algolia, google
+search_provider          : "algolia" # lunr (default), algolia, google
 algolia:
   application_id         : "65CVDG2CEB" # YOUR_APPLICATION_ID
   index_name             : "blog" # YOUR_INDEX_NAME
@@ -175,6 +175,7 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - _algolia_api_key # blacklist api key
 keep_files:
   - .git
   - .svn
