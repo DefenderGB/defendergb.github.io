@@ -19,8 +19,8 @@ locale                   : "en-US"
 title                    : "DefenderGB"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Gustavo Bobbio"
-description              : "A cyber security blog documenting DefenderGB's journey to become an Ethical Hacker."
+name                     : "Gustavo Bobbio-Hertog"
+description              : "DefenderGB's security blog."
 url                      : "https://defendergb.org"
 baseurl                  : ""
 repository               : "DefenderGB"
@@ -95,7 +95,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Gustavo Bobbio"
+  name             : "Gustavo Bobbio-Hertog"
   avatar           : "/assets/images/profile-small.png"
   bio              : "Security Engineer"
   location         : 
