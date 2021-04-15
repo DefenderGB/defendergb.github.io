@@ -10,7 +10,7 @@ main:
     url: /tags/
   - title: "Scripts"
     url: https://github.com/DefenderGB/Scripts
-  - title: "Writeups"
-    url: https://writeups.defendergb.org/
+  - title: "Write-ups"
+    url: /writeups/#writeups
   - title: "Notes"
     url: https://notes.defendergb.org/
