@@ -6,12 +6,12 @@ sidebar:
   - title: "Role"
     image: /assets/images/profile-small.png
     image_alt: "logo"
-    text: "Security Engineer"
+    text: "Penetration Tester"
 ---
 
 Hello my name is Gustavo Bobbio-Hertog!
 
-I am a Security Engineer at Amazon's Application Security team. I am leveraging this site to document my growth through the Security field and to create a forum that will allow me to share any tools/code that come my way. My academic background is in networking and webapp security and coding skills. You can find me under Discord, Reddit, or CTFs under the alias __defendergb__. 
+I am a Security Engineer at Amazon's Penetration Testing team. I am leveraging this site to document my growth through the cyber security field and to create a forum that will allow me to share any tools/code that I create or I use. My academic background is in networking, web application security and coding skills. You can find me under Discord, Reddit, or CTFs under the alias __defendergb__. 
 
 See you around!
 
